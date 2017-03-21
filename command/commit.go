@@ -8,7 +8,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/git-time-metric/gtm/metric"
+	"github.com/sdunixgeek/gtm/metric"
 	"github.com/mitchellh/cli"
 )
 
@@ -27,7 +27,7 @@ func (c CommitCmd) Help() string {
 	helpText := `
 Usage: gtm commit [options]
 
-  Save pending time with last commit. 
+  Save pending time with last commit.
 
 Options:
 

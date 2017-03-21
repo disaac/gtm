@@ -20,20 +20,20 @@ Vagrant.configure(2) do |config|
       sudo echo "\nPATH=$PATH:/usr/local/go/bin:/home/vagrant/dev/bin\nexport GOPATH=/home/vagrant/dev\n" >> /home/vagrant/.profile
 
       # setup gtm on GOPATH
-      mkdir -p /home/vagrant/dev/src/github.com/git-time-metric
+      mkdir -p /home/vagrant/dev/src/github.com/sdunixgeek
       sudo chown -R vagrant:vagrant /home/vagrant/dev
-      sudo ln -s /vagrant /home/vagrant/dev/src/github.com/git-time-metric/gtm
+      sudo ln -s /vagrant /home/vagrant/dev/src/github.com/sdunixgeek/gtm
     fi
 
     source /home/vagrant/.profile
 
-    go get -d github.com/git-time-metric/git2go
-    cd $GOPATH/src/github.com/git-time-metric/git2go
+    go get -d github.com/sdunixgeek/git2go
+    cd $GOPATH/src/github.com/sdunixgeek/git2go
     git checkout next
     git submodule update --init
     make install
 
-    cd $GOPATH/src/github.com/git-time-metric/gtm
+    cd $GOPATH/src/github.com/sdunixgeek/gtm
     go get -t -v ./...
     go test ./...
     go install

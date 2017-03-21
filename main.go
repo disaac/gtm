@@ -7,7 +7,7 @@ package main
 import (
 	"os"
 
-	"github.com/git-time-metric/gtm/command"
+	"github.com/sdunixgeek/gtm/command"
 	"github.com/mitchellh/cli"
 )
 

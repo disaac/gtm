@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/git-time-metric/gtm/epoch"
+	"github.com/sdunixgeek/gtm/epoch"
 )
 
 // Record creates an event for a source

@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/util"
 )
 
 // CommitNote contains the time metrics for a commit

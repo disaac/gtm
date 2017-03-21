@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/util"
 	"github.com/mitchellh/cli"
 )
 

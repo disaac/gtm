@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/git-time-metric/gtm/project"
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/project"
+	"github.com/sdunixgeek/gtm/util"
 )
 
 func TestRecord(t *testing.T) {

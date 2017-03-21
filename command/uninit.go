@@ -8,7 +8,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/git-time-metric/gtm/project"
+	"github.com/sdunixgeek/gtm/project"
 	"github.com/mitchellh/cli"
 )
 
@@ -27,7 +27,7 @@ func (c UninitCmd) Help() string {
 	helpText := `
 Usage: gtm uninit [options]
 
-  Turn off time tracking for git repository (does not remove committed time data). 
+  Turn off time tracking for git repository (does not remove committed time data).
 
 Options:
 

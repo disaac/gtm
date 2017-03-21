@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/git-time-metric/gtm/project"
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/project"
+	"github.com/sdunixgeek/gtm/util"
 	"github.com/mitchellh/cli"
 )
 

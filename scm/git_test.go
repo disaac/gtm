@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/util"
 )
 
 func TestRootPath(t *testing.T) {

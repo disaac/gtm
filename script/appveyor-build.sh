@@ -5,14 +5,14 @@ export PATH=/c/msys64/mingw64/bin:/c/msys64/usr/bin:/c/Go/bin:/c/gopath/go/bin:$
 export GOROOT=/c/Go/
 export GOPATH=/c/gopath
 
-go get -d github.com/git-time-metric/git2go
-cd /c/gopath/src/github.com/git-time-metric/git2go
+go get -d github.com/sdunixgeek/git2go
+cd /c/gopath/src/github.com/sdunixgeek/git2go
 git checkout next
 git submodule update --init
 
 make install
 
-cd /c/gopath/src/github.com/git-time-metric/gtm
+cd /c/gopath/src/github.com/sdunixgeek/gtm
 go get -t -v ./...
 go test -v ./...
 if [[ "${APPVEYOR_REPO_TAG}" = true ]]; then

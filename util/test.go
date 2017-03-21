@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/git-time-metric/git2go"
+	"github.com/sdunixgeek/git2go"
 )
 
 // TestRepo represents a test git repo used in testing

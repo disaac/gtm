@@ -8,8 +8,8 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/git-time-metric/gtm/project"
-	"github.com/git-time-metric/gtm/util"
+	"github.com/sdunixgeek/gtm/project"
+	"github.com/sdunixgeek/gtm/util"
 
 	"github.com/mitchellh/cli"
 )
@@ -29,7 +29,7 @@ func (c InitCmd) Help() string {
 	helpText := `
 Usage: gtm init [options]
 
-  Initialize a git repository for time tracking. 
+  Initialize a git repository for time tracking.
 
 Options:
 

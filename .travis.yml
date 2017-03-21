@@ -8,8 +8,8 @@ go:
   - 1.7
 
 before_install:
-  - go get -d github.com/git-time-metric/git2go
-  - cd $GOPATH/src/github.com/git-time-metric/git2go
+  - go get -d github.com/sdunixgeek/git2go
+  - cd $GOPATH/src/github.com/sdunixgeek/git2go
   - git checkout next
   - git submodule update --init
   - sudo apt-get remove libssl-dev || true
@@ -34,4 +34,4 @@ deploy:
   overwrite: true
   on:
     tags: true
-    repo: git-time-metric/gtm
+    repo: sdunixgeek/gtm

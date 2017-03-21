@@ -2,7 +2,7 @@
 # <div align="center">Git Time Metric</div>
 ### Seamless time tracking for all your Git projects
 
-##### $ gtm report -last-month 
+##### $ gtm report -last-month
 <div><img src="https://cloud.githubusercontent.com/assets/630550/21582250/8a03f9dc-d015-11e6-8f77-548ef7314bf7.png"></div>
 
 ##### $ gtm report -last-month -format summary
@@ -11,7 +11,7 @@
 ##### $ gtm report -last-month -format timeline-hours
 <div><img src="https://cloud.githubusercontent.com/assets/630550/21582253/91f6226e-d015-11e6-897c-6042111e6a6a.png"></div> </br>
 
-GTM is automatic, seamless and lightweight.  There is no need to remember to start and stop timers.  It runs on occasion to capture activity triggered by your editor.  The time metrics are stored locally with the git repository as [Git notes](https://git-scm.com/docs/git-notes) and can be pushed to the remote repository. 
+GTM is automatic, seamless and lightweight.  There is no need to remember to start and stop timers.  It runs on occasion to capture activity triggered by your editor.  The time metrics are stored locally with the git repository as [Git notes](https://git-scm.com/docs/git-notes) and can be pushed to the remote repository.
 
 ### <div align="center">Plugins</div>
 
@@ -38,27 +38,27 @@ Simply install a plugin for your favorite editor and the GTM command line utilit
 
 The simplest way to install is to use [Homebrew](http://brew.sh)
 ```
-brew tap git-time-metric/gtm
+brew tap sdunixgeek/gtm
 brew install gtm
 ```
 
 **Windows**
 
-- Download and run the Windows installer from [here](https://github.com/git-time-metric/gtm/releases/latest)
+- Download and run the Windows installer from [here](https://github.com/sdunixgeek/gtm/releases/latest)
 
 **Manually install for Linux, OSX or Windows**
 
-- Download and install the executable from [here](https://github.com/git-time-metric/gtm/releases/latest)
+- Download and install the executable from [here](https://github.com/sdunixgeek/gtm/releases/latest)
 
 
 ### Install a plugin for your editor
 
-- [Sublime 3](https://github.com/git-time-metric/gtm-sublime3-plugin)
-- [Atom](https://github.com/git-time-metric/gtm-atom-plugin)
-- [Vim](https://github.com/git-time-metric/gtm-vim-plugin)
-- [IntelliJ IDEA, PyCharm, WebStorm, AppCode, RubyMine, PhpStorm, AndroidStudio ](https://github.com/git-time-metric/gtm-jetbrains-plugin)
+- [Sublime 3](https://github.com/sdunixgeek/gtm-sublime3-plugin)
+- [Atom](https://github.com/sdunixgeek/gtm-atom-plugin)
+- [Vim](https://github.com/sdunixgeek/gtm-vim-plugin)
+- [IntelliJ IDEA, PyCharm, WebStorm, AppCode, RubyMine, PhpStorm, AndroidStudio ](https://github.com/sdunixgeek/gtm-jetbrains-plugin)
 - [VSCode](https://github.com/nexus-uw/vscode-gtm)
-- [Terminal](https://github.com/git-time-metric/gtm-terminal-plugin)
+- [Terminal](https://github.com/sdunixgeek/gtm-terminal-plugin)
 
 ### Initialize a project for time tracking
 
@@ -84,7 +84,7 @@ Check your progress with `gtm status`.
        20m 40s  53% [m] plugin/gtm.vim
        18m  5s  46% [r] Terminal
            15s   1% [m] .gitignore
-       39m  0s          <b>gtm-vim-plugin</b> </pre> 
+       39m  0s          <b>gtm-vim-plugin</b> </pre>
 
 ### Commit your work
 
@@ -97,7 +97,7 @@ Fri Sep 09 20:45:03 2016 -0500 <b>gtm-vim-plugin</b> Michael Schenk
        20m 40s  53% [m] plugin/gtm.vim
        18m  5s  46% [r] Terminal
            15s   1% [m] .gitignore
-       39m  0s          <b>gtm-vim-plugin</b> </pre> 
+       39m  0s          <b>gtm-vim-plugin</b> </pre>
 
 ### Optionally save time in the remote Git repository
 
@@ -113,17 +113,17 @@ Time data can be retrieved from the remote repository by fetching.
 
 For help from the command line type `gtm --help` and `gtm <subcommand> --help`.
 
-For additional help please consult the [Wiki](https://github.com/git-time-metric/gtm/wiki).
+For additional help please consult the [Wiki](https://github.com/sdunixgeek/gtm/wiki).
 
 # Contributing
-[![Build Status](https://travis-ci.org/git-time-metric/gtm.svg?branch=develop)](https://travis-ci.org/git-time-metric/gtm) [![Build status](https://ci.appveyor.com/api/projects/status/gj6tvm8njgwj0hqi?svg=true)](https://ci.appveyor.com/project/mschenk42/gtm) [![Coverage Status](https://coveralls.io/repos/github/git-time-metric/gtm/badge.svg)](https://coveralls.io/github/git-time-metric/gtm) [![Go Report Card](https://goreportcard.com/badge/github.com/git-time-metric/gtm)](https://goreportcard.com/report/github.com/git-time-metric/gtm) [![Stories in Ready](https://badge.waffle.io/git-time-metric/gtm.png?label=ready&title=Ready)](https://waffle.io/git-time-metric/gtm)
+[![Build Status](https://travis-ci.org/sdunixgeek/gtm.svg?branch=develop)](https://travis-ci.org/sdunixgeek/gtm) [![Build status](https://ci.appveyor.com/api/projects/status/gj6tvm8njgwj0hqi?svg=true)](https://ci.appveyor.com/project/mschenk42/gtm) [![Coverage Status](https://coveralls.io/repos/github/sdunixgeek/gtm/badge.svg)](https://coveralls.io/github/sdunixgeek/gtm) [![Go Report Card](https://goreportcard.com/badge/github.com/sdunixgeek/gtm)](https://goreportcard.com/report/github.com/sdunixgeek/gtm) [![Stories in Ready](https://badge.waffle.io/sdunixgeek/gtm.png?label=ready&title=Ready)](https://waffle.io/sdunixgeek/gtm)
 
 If you find a bug or have an idea for a new feature please feel free to file new issues and submits PRs.  In particular if there isn't a plugin for your favorite editor, go ahead and create one!
 
-For more detail on how to write plugins, check out the [Wiki](https://github.com/git-time-metric/gtm/wiki/Editor-Plugins).
+For more detail on how to write plugins, check out the [Wiki](https://github.com/sdunixgeek/gtm/wiki/Editor-Plugins).
 
 # Support
 
-To report a bug, please submit an issue on the [GitHub Page](https://github.com/git-time-metric/gtm/issues)
+To report a bug, please submit an issue on the [GitHub Page](https://github.com/sdunixgeek/gtm/issues)
 
-Consult the [Wiki](https://github.com/git-time-metric/gtm/wiki) for more information.
+Consult the [Wiki](https://github.com/sdunixgeek/gtm/wiki) for more information.
